@@ -125,7 +125,7 @@ The original dataset is not included in this repository.
 3. Install the required Python packages:
 
    ```bash
-   pip install pandas numpy matplotlib seaborn openpyxl
+   pip install -r requirements.txt
    ```
 
 4. Open `DATA.ipynb` in Jupyter Notebook or VS Code.
