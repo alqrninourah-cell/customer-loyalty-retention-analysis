@@ -70,3 +70,31 @@ customers with its contribution to total recorded spending.
 **4. Customer Segmentation**
 
 RFM analysis identified six customer groups, providing a framework for exploring targeted engagement and retention strategies.
+
+
+## Business Recommendations
+
+Based on the customer behavior, RFM segmentation, and cohort retention analysis, the following actions are recommended:
+
+### 1. Retain High-Value Customers
+Champions account for 49.03% of recorded spending while representing only 10.65% of customers.
+
+**Recommendation:** Test exclusive loyalty benefits and personalized engagement campaigns to encourage continued purchasing among high-value customers.
+
+### 2. Encourage Repeat Purchases
+Potential Loyalists represent 25.68% of customers but contribute 6.72% of recorded spending.
+
+**Recommendation:** Test personalized product recommendations and follow-up offers to encourage additional purchases.
+
+### 3. Reactivate Inactive Customers
+Hibernating customers represent 21.81% of the customer base.
+
+**Recommendation:** Evaluate targeted reactivation campaigns, prioritizing customers with higher historical spending.
+
+### 4. Improve Early Customer Retention
+Most cohorts show second-month retention rates below 25%.
+
+**Recommendation:** Test post-purchase communication and customer engagement strategies to encourage repeat purchases.
+
+### Important Note
+These recommendations are based on historical purchasing patterns. Their effectiveness has not been tested and would require further evaluation through controlled experiments.
