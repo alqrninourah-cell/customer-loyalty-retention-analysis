@@ -98,3 +98,48 @@ Most cohorts show second-month retention rates below 25%.
 
 ### Important Note
 These recommendations are based on historical purchasing patterns. Their effectiveness has not been tested and would require further evaluation through controlled experiments.
+
+## Dataset
+
+This project uses the **UCI Online Retail Dataset**, which contains transactional records from a UK-based online retailer.
+
+- **Period:** December 2010 – December 2011
+- **Original dataset:** 541,909 transaction line items
+- **Customers after cleaning:** 4,338
+- **Paid purchase line items after cleaning:** 397,884
+
+### Data Cleaning
+
+The analysis focuses on positive purchase transactions. The following records were excluded:
+
+- Transactions with missing CustomerID values.
+- Cancelled invoices identified by an InvoiceNo starting with "C".
+- Transactions with non-positive unit prices.
+
+The original dataset is not included in this repository.
+
+## How to Run
+
+1. Download the UCI Online Retail dataset.
+2. Save the Excel file as `Online Retail.xlsx` in the same folder as the notebook.
+3. Install the required Python packages:
+
+   ```bash
+   pip install pandas numpy matplotlib seaborn openpyxl
+   ```
+
+4. Open `DATA.ipynb` in Jupyter Notebook or VS Code.
+5. Run the notebook cells sequentially to reproduce the analysis.
+
+## Limitations
+
+- **Historical data:** The dataset covers transactions from 2010–2011, so findings may not represent current purchasing behavior.
+- **Excluded cancellations and returns:** Spending figures reflect positive purchase transactions rather than net revenue after returns.
+- **First observed purchase:** Cohorts are based on each customer's first purchase recorded in the dataset, which may not be their first-ever purchase.
+- **Incomplete final month:** December 2011 contains only partial-month data and is excluded from full-month retention comparisons.
+- **Rule-based segmentation:** RFM customer groups are based on selected scoring thresholds and classification rules rather than a predictive model.
+- **Recommendations not validated:** Suggested business actions have not been tested through experiments.
+
+## Future Improvements
+
+- Build an interactive customer
